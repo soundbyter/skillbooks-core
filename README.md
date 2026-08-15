@@ -39,8 +39,10 @@ Skillbooks is the first of a small family of independently-installable mods:
 
 ## Installation
 
-Grab the latest release from the [Releases page](https://github.com/soundbyter/skillbooks-core/releases)
-and drop the zip into your Vintage Story `Mods` folder (or extract it there).
+Get it from the [Vintage Story ModDB](https://mods.vintagestory.at/show/mod/64127) (installable
+directly through the in-game mod browser), or grab the zip from the
+[Releases page](https://github.com/soundbyter/skillbooks-core/releases) here and drop it into
+your Vintage Story `Mods` folder.
 
 ## Configuration
 
