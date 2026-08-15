@@ -7,15 +7,13 @@ namespace Skillbooks
 {
     /// <summary>
     /// Formats a trait's raw Attributes (stat modifier deltas) into player-facing text,
-    /// reusing the "charattribute-&lt;key&gt;-&lt;value&gt;" lang key convention the vanilla
+    /// reusing the "charattribute-<key>-<value>" lang key convention the vanilla
     /// character-creation screen uses (CharacterSystem.getClassTraitText, confirmed via
-    /// decompile). Most class mods (aldiclasses, rustboundmagic) already ship these entries
+    /// decompile). Most class mods (aldiclasses for example) already ship these entries
     /// for their own traits so they display correctly there too -- reusing the same lookup
     /// gets correct, human-written text for free rather than guessing a percent-vs-flat
     /// formatting rule. Falls back to a generic percentage guess only when nobody's written
-    /// an entry for that exact (key, value) pair. Verified live: string.Format with
-    /// InvariantCulture reproduces the exact key vanilla/aldiclasses/rustboundmagic use,
-    /// including the double-hyphen case for negative values.
+    /// an entry for that exact (key, value) pair.
     /// </summary>
     public static class TraitAttributeFormatter
     {

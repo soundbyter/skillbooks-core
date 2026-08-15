@@ -12,7 +12,7 @@ namespace Skillbooks
 {
     /// <summary>
     /// Builds one ItemSkillBook per discovered crafting trait via ICoreServerAPI.RegisterItem
-    /// (IAssetManager.Add needs an undocumented internal Asset type, so it's avoided).
+    /// (IAssetManager.Add needs an undocumented internal Asset type, so it's intentionally avoided).
     ///
     /// Also registers a fallback "illegible" item for every trait in knownTraitCodes whose
     /// providing mod is no longer loaded -- otherwise an existing itemstack for it would
@@ -30,7 +30,7 @@ namespace Skillbooks
         };
 
         // Deliberately not in TintPool -- illegible books get their own distinct, worn look
-        // rather than reusing a normal tint. Same texture set, a rotted variant instead.
+        // rather than reusing a normal tint for aesthetics and for clarity at a glance.
         private const string IllegibleTexturePath = "item/lore/book-rotten1";
 
         public static void Generate(ICoreServerAPI api, Dictionary<string, DiscoveredTrait> craftingTraits, IEnumerable<string> knownTraitCodes, SkillBooksConfig config)

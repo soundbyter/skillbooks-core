@@ -6,12 +6,12 @@ using Vintagestory.API.Server;
 namespace Skillbooks
 {
     /// <summary>
-    /// Three-tier flavour resolver, first match wins: mod-supplied
-    /// (assets/&lt;domain&gt;/config/skillbooks/&lt;code&gt;.json), curated
-    /// (assets/skillbooks/config/flavour-curated.json), then a procedural fallback built
-    /// from the trait's own lang keys. Title/blurb fall back independently per field. The
-    /// mod-supplied path lives under config/, not a bare top-level folder -- confirmed via
-    /// decompile that AssetManager only scans the fixed set of AssetCategory folder names
+    /// Three-tier flavour resolver, first match wins: 
+    /// 1: Mod-supplied (assets/<domain>/config/skillbooks/<code>.json) 
+    /// 2: Curated (assets/skillbooks/config/flavour-curated.json)
+    /// 3: A procedural fallback built from the trait's own lang keys. Title/blurb fall back independently per field. 
+    /// The mod-supplied path lives under config/, not a bare top-level folder -- confirmed via
+    /// decompiling the game's DLLs that AssetManager only scans the fixed set of AssetCategory folder names
     /// (blocktypes, config, lang, etc.) at all; anything outside that set is never indexed,
     /// so TryGet silently never finds it regardless of correct placement.
     /// </summary>

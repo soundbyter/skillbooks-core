@@ -10,6 +10,8 @@ namespace Skillbooks
     /// Registers a single static handbook page describing the skill book mechanic as a
     /// concept, not one entry per trait -- keeps which traits have books a surprise while
     /// still being discoverable.
+    /// Also describes the reroll mechanic (Holding temporal gear in offhand and holding right click)
+    /// and salvaging (crafting with a knife). Actual recipe previews may be added later.
     /// </summary>
     public class SkillBookHandbook : ModSystem
     {

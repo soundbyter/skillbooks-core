@@ -13,11 +13,11 @@ namespace Skillbooks.Config
         public string[] TraitBlacklist = System.Array.Empty<string>();
         public string[] TraitAllowlist = System.Array.Empty<string>();
 
-        public double LootSpawnChance = 0.001;
-        public string[] LootTargetBlockCodes = { "game:lootvessel-*" };
+        public double LootSpawnChance = 0.001; // Intentionally defaulted low for balance due to each book being a permanent character upgrade
+        public string[] LootTargetBlockCodes = { "game:lootvessel-*" }; // Determines what blocks can drop books when broken.
 
-        public bool TraderEnabled = true;
-        public string[] TraderOffers = { "treasurehunter" };
+        public bool TraderEnabled = true; 
+        public string[] TraderOffers = { "treasurehunter" }; // Which types of traders can sell a book
         public double TraderPriceMultiplier = 1.0;
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace Skillbooks.Config
         public double TraderSpawnChance = 0.005;
 
         /// <summary>
-        /// Base price in rusty gears (the only trader currency), before TraderPriceMultiplier
+        /// Base price, before TraderPriceMultiplier
         /// and a small +/-2 random variance.
         /// </summary>
         public int TraderBasePrice = 24;

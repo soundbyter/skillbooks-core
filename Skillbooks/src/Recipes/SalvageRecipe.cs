@@ -6,8 +6,8 @@ using Vintagestory.API.Server;
 namespace Skillbooks.Recipes
 {
     /// <summary>
-    /// Skillbook + knife -> leather. Plain GridRecipe (no random output needed, unlike
-    /// reroll), but still built in code rather than shipped as static JSON so the leather
+    /// Skillbook + knife -> leather. Kept intentionally simple for reliability.
+    /// Still built in code rather than shipped as static JSON so the leather
     /// amount stays config-driven and the recipe can be skipped entirely when disabled.
     /// </summary>
     public static class SalvageRecipe

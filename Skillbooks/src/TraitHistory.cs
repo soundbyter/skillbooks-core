@@ -7,8 +7,8 @@ namespace Skillbooks
     /// <summary>
     /// Persists every crafting-trait code ever discovered in this savegame, so
     /// SkillBookRegistry can keep registering an illegible item for a trait whose providing
-    /// mod has since been removed, instead of the code just disappearing. Stored via
-    /// ISaveGame.GetData/StoreData, the correct per-world persistence point.
+    /// mod has since been removed instead of the code just disappearing. Stored via
+    /// ISaveGame.GetData/StoreData.
     /// </summary>
     public static class TraitHistory
     {

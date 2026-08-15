@@ -9,7 +9,7 @@ namespace Skillbooks
 {
     /// <summary>
     /// A discovered crafting trait plus the mod domain its config/traits.json entry came
-    /// from, so SkillBookFlavour can probe that domain for a mod-supplied flavour override.
+    /// from, so SkillBookFlavour can probe that domain for a mod-supplied flavour override if it exists.
     /// </summary>
     public class DiscoveredTrait
     {

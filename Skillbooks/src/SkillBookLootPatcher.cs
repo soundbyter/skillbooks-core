@@ -83,7 +83,7 @@ namespace Skillbooks
                     bool seenBefore = lastKnownRefreshDay.TryGetValue(entity.EntityId, out double previousRefreshDay);
                     lastKnownRefreshDay[entity.EntityId] = currentRefreshDay;
 
-                    // Only treat an *advance* as a real restock -- first-ever sighting of a
+                    // Only treat an advance as a real restock -- first-ever sighting of a
                     // trader just establishes a baseline, not a rotation to roll against.
                     if (!seenBefore || currentRefreshDay <= previousRefreshDay) { continue; }
 
