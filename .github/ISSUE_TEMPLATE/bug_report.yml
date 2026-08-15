@@ -1,0 +1,62 @@
+name: Bug report
+description: Something isn't working as expected.
+labels: [bug]
+body:
+  - type: input
+    id: vs-version
+    attributes:
+      label: Vintage Story version
+      placeholder: "1.22.6"
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Skillbooks version
+      placeholder: "0.2.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other installed mods
+      description: >
+        Especially any that add traits (class mods) -- discovery pulls in every mod's
+        config/traits.json, so cross-mod interactions matter here.
+      placeholder: aldiclasses 2.2.7, rustboundmagic 3.2.5, ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected instead, too.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: false
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Relevant log output
+      description: Server or client log around when it happened. Paste as text, not a screenshot.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true
