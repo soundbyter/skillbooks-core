@@ -31,6 +31,13 @@ before opening a PR, and say what you tested in the PR description.
 - Don't add abstractions, config options, or defensive error handling for scenarios that can't
   actually happen. Three similar lines beat a premature abstraction.
 
+## Mod-supplied flavour overrides
+
+`SkillBookFlavour`'s tier 1 (`assets/<moddomain>/skillbooks/<traitcode>.json`) is public
+surface other mod authors rely on directly, documented in the [README](README.md#for-mod-authors-supplying-your-own-flavour-text)
+-- not just an internal implementation detail. Changing its JSON shape or lookup path is a
+breaking change under the versioning policy below, not a routine refactor.
+
 ## Versioning
 
 Strict [semver](https://semver.org/) (`MAJOR.MINOR.PATCH`), currently in the `0.x` range —

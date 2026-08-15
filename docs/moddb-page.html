@@ -30,6 +30,14 @@
   <li>Whether salvage and reroll are enabled, and whether either is restricted to illegible books only</li>
 </ul>
 
+<h2>Making a class mod?</h2>
+<p>Skillbooks discovers your traits automatically, but if you'd rather write your own flavour text for your own trait's book instead of using the procedural fallback, just ship a file at <code>assets/&lt;yourmoddomain&gt;/skillbooks/&lt;traitcode&gt;.json</code> in your own mod:</p>
+<pre><code>{
+  "title": "Your Book's Title",
+  "blurb": "The in-world description shown when the book is read or inspected."
+}</code></pre>
+<p>That takes priority over Skillbooks' own curated list, no coordination with this repo required.</p>
+
 <h2>Part of a family</h2>
 <p>Skillbooks has a standalone addon, Skillbooks: Stats, which does the same thing for stat-modifying traits (Fleetfooted, Hardy, and so on). It works entirely on its own, but if both mods are installed it automatically shares this mod's trait registry and flavour text rather than duplicating anything. <em>(ModDB link coming soon &mdash; in the meantime, see the <a href="https://github.com/soundbyter/skillbooks-stats" target="_blank" rel="noopener">GitHub repo</a>.)</em></p>
 

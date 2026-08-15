@@ -48,6 +48,21 @@ A config file is generated on first run at `ModConfig/skillbooks.json`. See the 
 the full set of options — loot/trader spawn chances, target block patterns, trader offer price,
 and which traits are enabled.
 
+## For mod authors: supplying your own flavour text
+
+If your mod adds a trait, you don't have to wait for it to be added to Skillbooks' curated
+list — ship a file at `assets/<yourmoddomain>/skillbooks/<traitcode>.json` in your own mod:
+
+```json
+{
+  "title": "Your Book's Title",
+  "blurb": "The in-world description shown when the book is read or inspected."
+}
+```
+
+This takes priority over Skillbooks' own curated list and its procedural fallback. Either
+field can be omitted and falls back independently to whatever the next tier provides.
+
 ## Building from source
 
 Requires the .NET SDK matching Vintage Story's target framework, and a local Vintage Story
