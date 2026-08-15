@@ -51,7 +51,9 @@ and which traits are enabled.
 ## For mod authors: supplying your own flavour text
 
 If your mod adds a trait, you don't have to wait for it to be added to Skillbooks' curated
-list — ship a file at `assets/<yourmoddomain>/skillbooks/<traitcode>.json` in your own mod:
+list — ship a file at `assets/<yourmoddomain>/config/skillbooks/<traitcode>.json` in your own
+mod (note the `config/` — Vintage Story's asset system only scans a fixed set of known
+top-level folders per domain, so it has to sit under a recognized one):
 
 ```json
 {

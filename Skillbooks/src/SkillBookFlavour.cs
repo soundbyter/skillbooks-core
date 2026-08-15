@@ -7,9 +7,13 @@ namespace Skillbooks
 {
     /// <summary>
     /// Three-tier flavour resolver, first match wins: mod-supplied
-    /// (assets/&lt;domain&gt;/skillbooks/&lt;code&gt;.json), curated
+    /// (assets/&lt;domain&gt;/config/skillbooks/&lt;code&gt;.json), curated
     /// (assets/skillbooks/config/flavour-curated.json), then a procedural fallback built
-    /// from the trait's own lang keys. Title/blurb fall back independently per field.
+    /// from the trait's own lang keys. Title/blurb fall back independently per field. The
+    /// mod-supplied path lives under config/, not a bare top-level folder -- confirmed via
+    /// decompile that AssetManager only scans the fixed set of AssetCategory folder names
+    /// (blocktypes, config, lang, etc.) at all; anything outside that set is never indexed,
+    /// so TryGet silently never finds it regardless of correct placement.
     /// </summary>
     public static class SkillBookFlavour
     {
@@ -38,7 +42,7 @@ namespace Skillbooks
         {
             if (string.IsNullOrEmpty(traitModDomain)) { return null; }
 
-            AssetLocation loc = new AssetLocation(traitModDomain, "skillbooks/" + traitCode + ".json");
+            AssetLocation loc = new AssetLocation(traitModDomain, "config/skillbooks/" + traitCode + ".json");
             IAsset asset = api.Assets.TryGet(loc);
             return asset?.ToObject<FlavourText>();
         }

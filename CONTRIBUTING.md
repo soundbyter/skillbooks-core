@@ -33,10 +33,17 @@ before opening a PR, and say what you tested in the PR description.
 
 ## Mod-supplied flavour overrides
 
-`SkillBookFlavour`'s tier 1 (`assets/<moddomain>/skillbooks/<traitcode>.json`) is public
-surface other mod authors rely on directly, documented in the [README](README.md#for-mod-authors-supplying-your-own-flavour-text)
+`SkillBookFlavour`'s tier 1 (`assets/<moddomain>/config/skillbooks/<traitcode>.json`) is
+public surface other mod authors rely on directly, documented in the [README](README.md#for-mod-authors-supplying-your-own-flavour-text)
 -- not just an internal implementation detail. Changing its JSON shape or lookup path is a
 breaking change under the versioning policy below, not a routine refactor.
+
+The `config/` prefix is load-bearing, not decoration: `AssetManager.InitAndLoadBaseAssets`
+(confirmed via decompile) only scans the fixed set of `AssetCategory` folder names per domain
+-- `blocktypes`, `config`, `lang`, and so on. A path outside that set is never indexed at all,
+so `IAssetManager.TryGet` silently finds nothing no matter how correctly the file is placed.
+This bit us for real: the original tier 1 path omitted `config/` and had never actually been
+exercised end-to-end, so the whole mechanism was dead on arrival until this got caught.
 
 ## Versioning
 
