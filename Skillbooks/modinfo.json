@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "skillbooks",
+    "name": "Skillbooks",
+    "authors": [
+        "soundbyter"
+    ],
+    "description": "Lore-styled, single-use books that permanently grant a crafting trait when read. Discovers crafting traits dynamically at server start by scanning loaded recipes, generating a book for each one automatically -- including traits added by other mods.",
+    "version": "0.2.0",
+    "iconPath": "modicon.png",
+    "dependencies": {
+        "game": ""
+    }
+}

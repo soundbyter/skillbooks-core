@@ -1,0 +1,414 @@
+{
+	"clothier": {
+		"title": "Seamstress' Notebook",
+		"blurb": "Once the notebook of a well-regarded seamstress, now old and faded. You can still make out the diagrams and notes on its pages."
+	},
+	"bowyer": {
+		"title": "A Guide To Archery",
+		"blurb": "A true survivalist's guide, written on handmade parchment bound with rope and leather scraps. A veteran archer once wrote in this book, detailing how to make bows from very little."
+	},
+	"merciless": {
+		"title": "Blackguard Training Manual",
+		"blurb": "A heavy, leatherbound tome often handed out to Blackguard mentors to teach recruits how to manage and repair their equipment."
+	},
+	"tinkerer": {
+		"title": "Clockmaker's Almanac",
+		"blurb": "Tinkerers know a thing is more than the sum of its parts. Precision is key in mastery, and this book details how to bypass sloppy design for your benefit, and how to create works that will last the ages."
+	},
+	"improviser": {
+		"title": "David & Goliath",
+		"blurb": "A well-known story where a hero named David takes down Goliath using only a sling and a well-placed stone. You know the story, but it goes into more detail on the sling's design than you remember."
+	},
+	"sailwright": {
+		"title": "Captain Marsh's Guide to Sailing",
+		"blurb": "A salt-encrusted book written almost illegibly by a man referring to themselves as Captain Marsh. It is almost completely full of poor sailing jokes and embellished stories, but it has surprising nuggets of knowledge on improvising sails."
+	},
+	"handwright": {
+		"title": "A Comprehensive Guide to Making",
+		"blurb": "The knowledge within this book is truly immaculate, the works of countless craftsmen condensed into one very thick leatherbound book. With some serious dedication, you are certain you could pick up a lot of techniques."
+	},
+	"timberwright": {
+		"title": "Working with Wood",
+		"blurb": "A somewhat dry and uninteresting book filled with details on working with timber, from wallpapers to windmill parts."
+	},
+	"millwright": {
+		"title": "Windmill Blueprint Collection",
+		"blurb": "A binder-style book full of blueprints on parts that you recognise as being more efficient windmill parts. To the mechanical enthusiast, this is a gold mine."
+	},
+	"artisan": {
+		"title": "Artisinal Claymaking: A Guide To Pottery",
+		"blurb": "A cursory flip through reveals a guide on pottery, focusing on decoration and artisinal goods. It may not be great for survival, but you're sure you could make some good looking flowerpots with this."
+	},
+	"backpacker": {
+		"title": "A Vintage Odyssey",
+		"blurb": "What first reads as a traveler's accounts of their sightseeing is soon revealed to be a genius guide on how to pack efficiently, how to improve your backpack, and how to add a personal flair to your stuff."
+	},
+	"carpenter": {
+		"title": "A Beginner's Guide to Carpentry",
+		"blurb": "\"So you want to be a carpenter? The first thing you should understand: Waste is the enemy. Always be looking for something to use your extra wood on, and optimise your saw use as much as possible!\""
+	},
+	"cokefurnacemaster": {
+		"title": "A Primer on Steel: Coke",
+		"blurb": "A true master blacksmith wrote this book, judging by all the coal smudges on it. This volume of the book explains the importance of Coal Coke and how to make it stretch further."
+	},
+	"culinary": {
+		"title": "Cooking 101",
+		"blurb": "A book full to the brim of ingenious recipes to stop burning your meat and start using waste. From customising your own cookware to how to make jerky, this book is a must-have for any aspiring chef."
+	},
+	"entropy": {
+		"title": "A Tattered Storybook",
+		"blurb": "This was once a storybook, but it has been defaced with the ramblings of a person gone mad. It talks about temporal gears, \"embracing gemstones\", and... Wait. Some of this almost makes sense..."
+	},
+	"saddler": {
+		"title": "A Blackguard Hostler's Notebook",
+		"blurb": "This book smells quite strongly of animals, having been written in by someone entrusted in the care of many. Apparently, they had to make so many saddles for the Blackguard that they developed a cheaper recipe."
+	},
+	"greenfingered": {
+		"title": "Nutrients And You",
+		"blurb": "A book with dirt smudges and smelling of soil, it goes into deep detail on soil nutrition, how to maximise the return of plants, and how to enrich your soil."
+	},
+	"firestarter": {
+		"title": "A Singed Manual",
+		"blurb": "A rather humorous book singed at the edges, once belonging to a chef infuriated by the terrible fuel supply provided by merchants. It contains a lot of profanity and the process of making a new type of fuel for the kitchens."
+	},
+	"woodsman": {
+		"title": "A Lumberjack's Journal",
+		"blurb": "A journal of a lumberjack, living an isolated life cutting trees and selling the firewood. In it contains information on how he kept his cabin warm, and how he prepared sticks to replace axe handles."
+	},
+	"fitter": {
+		"title": "A Flooring Catalog",
+		"blurb": "It's hard to say, but you think this was a catalog given to customers of a fitter's business. It contains a wide variety of flooring plans and wood installations, and you think you could replicate it with some practice."
+	},
+	"druid": {
+		"title": "Vine-Wrapped Book",
+		"blurb": "It's a surprising challenge to get this book open. It is made of reeds and bound by vines, written in with some kind of dye. Clearly this once belonged to a druid, and contains the results of experimenting with medicinal herbs."
+	},
+	"glassblower": {
+		"title": "Glassblower's Glass Guide",
+		"blurb": "Despite the humorous title, this book is a rather practical manual on how to blow glass more efficiently, without wasting so much material."
+	},
+	"survivalexpert": {
+		"title": "Survival Guide Vol. 4: Winter",
+		"blurb": "A rather grim guide that goes over the difficulties of winter, how to recognise frostbite, and what you should prioritise when temperatures drop and your life is in danger. It does have some invaluable survival tips, such as using heatcores to keep warm."
+	},
+	"mason": {
+		"title": "Mason's Masonry Manual",
+		"blurb": "Evidently written by a mason called Mason, this manual is confusing at best to read. It does however give you a ton of useful information for how to efficiently make stone, cobblestone, and even ashlar."
+	},
+	"prospector": {
+		"title": "A Goblin's Notes",
+		"blurb": "This book is in very poor shape, once owned by a goblin who loved nothing more than going into a really deep cave and digging very, very far. It is mostly ramblings on digging, but there are some genuinely smart methods for temporal stability and lighting the tunnels."
+	},
+	"threadweaver": {
+		"title": "Threadweaver's Guild Secrets",
+		"blurb": "This appears to be an investigative report done by a rival clothing merchant, infuriated at the Threadweaver's Guild's patented techniques of extracting vast amounts of cloth from nettles and flax. Fortunately, this report spills the secrets."
+	},
+	"potter": {
+		"title": "The Potter's Trade Secrets",
+		"blurb": "A stained, clay-fingerprinted notebook. Inside are tricks for stretching daub further and getting bigger crocks out of the same lump of clay, plus a stew pot recipe the author refused to share with the rest of the guild."
+	},
+	"smith": {
+		"title": "A Smith's Repair Log",
+		"blurb": "A soot-marked ledger kept by a working blacksmith. Between notes on customer orders are diagrams for a sturdier torch holder, a proper pair of work gloves, and a repair kit."
+	},
+	"veganingenuity": {
+		"title": "Notes from a Meatless Kitchen",
+		"blurb": "Written by someone who got tired of being asked where they get their protein. Covers pressing fat from grain oils, growing a passable leather substitute from mycelium, and other workarounds for a diet without animal products."
+	},
+	"focused": {
+		"title": "Aim And Fire",
+		"blurb": "A short pamphlet an old marksman handed to anyone who'd listen. It intentionally focuses on where most new archers fall short: Technique."
+	},
+	"resourceful": {
+		"title": "Waste Nothing",
+		"blurb": "A butcher's field notes on getting more out of every carcass in less time. Blunt and a little grim in places, but the techniques work."
+	},
+	"fleetfooted": {
+		"title": "Staying Light on Your Feet",
+		"blurb": "A slim booklet of walking exercises and posture tips. Sounds too simple to matter, but stick with it a while and your pace picks up without you noticing the effort."
+	},
+	"forager": {
+		"title": "A Forager's Eye",
+		"blurb": "Sketches and notes on where wild plants like to hide and how to spot them from a distance. The author clearly spent more time in the woods than talking to people."
+	},
+	"pilferer": {
+		"title": "How to Rob a Ruin",
+		"blurb": "A grave robber's crib notes on where old vessels hide their good stuff and how to crack one open without shattering it. You have no idea who the target audience is, but the tips genuinely work."
+	},
+	"furtive": {
+		"title": "Moving Unseen",
+		"blurb": "Tips on staying downwind, keeping low, and reading how far animals can sense you before they bolt."
+	},
+	"precise": {
+		"title": "The Mechanic's Eye",
+		"blurb": "A tinkerer's notebook on hitting weak points in gears and mechanisms rather than swinging blindly at the housing. Full of small diagrams with arrows pointing at exactly the right spot."
+	},
+	"technical": {
+		"title": "A Cheapskate's Repair Guide",
+		"blurb": "A grease-stained manual on keeping gears running without burning through spare parts. You can't tell if the author was a genius or a cheapskate, or both."
+	},
+	"soldier": {
+		"title": "Drill and Discipline",
+		"blurb": "A standard-issue training manual on fighting in armor without wrecking it or slowing yourself to a crawl. Extremely dry reading, but every veteran swears by it."
+	},
+	"hardy": {
+		"title": "The Unstoppable Miner",
+		"blurb": "Part mining guide, part personal boasting from a miner who never seemed to get tired or hurt. The mining tips are solid even if the boasting gets old."
+	},
+	"mender": {
+		"title": "Keeping Your Kit Together",
+		"blurb": "A patchwork of repair tricks for keeping armor wearable long after it should have fallen apart. Held together itself with tape and good intentions."
+	},
+	"betweenworlds": {
+		"title": "Half a Step Sideways",
+		"blurb": "A thin volume on walking as though you are only partly here. The author claims it makes travel faster. It is hard to argue once you try it and the miles go by quicker."
+	},
+	"enlightenment": {
+		"title": "On Enlightenment",
+		"blurb": "Dense and repetitive, and strangely convincing the more you read it. Whatever the author found, it seems significant. And a little crazy."
+	},
+	"essencefed": {
+		"title": "Feeding on Less",
+		"blurb": "A short essay on sustaining yourself with something other than food. The details are vague on purpose, but the effect is real enough that you stop needing to eat as often."
+	},
+	"gearcalling": {
+		"title": "Calling the Gears",
+		"blurb": "Instructions on drawing rusty gears out of places you would not think to look."
+	},
+	"test": {
+		"title": "An Anomalous Book",
+		"blurb": "You have no idea what this is, and you get the feeling you shouldn't have it."
+	},
+	"miner": {
+		"title": "A Working Miner's Notes",
+		"blurb": "Practical advice on reading rock for ore and swinging a pick without wasting energy. It is quite boring, but it helps you waste less ore."
+	},
+	"carefulcut": {
+		"title": "Cutting Without Waste",
+		"blurb": "A gardener's notes on cutting grass and nettles cleanly instead of tearing through them. Small habit, bigger yield."
+	},
+	"carefulstrike": {
+		"title": "One Good Swing",
+		"blurb": "A short guide on hitting stone at the right angle instead of just hammering away at it. The goal is to shatter the rock cleanly, not pulverize it."
+	},
+	"freeaswind": {
+		"title": "Free as the Wind",
+		"blurb": "Notes on moving through the world unburdened, from softer landings to higher jumps to a faster stride overall."
+	},
+	"getingetout": {
+		"title": "Get In, Get Loot, Get Out",
+		"blurb": "A looter's cheat sheet for finding what's worth taking in a vessel and grabbing it fast before anything notices you're there."
+	},
+	"highlyefficient": {
+		"title": "Maximum Efficiency",
+		"blurb": "A detailed breakdown of how to get by on less food than seems reasonable. It mostly boils down to controlling your hunger and rationing your food."
+	},
+	"evasive": {
+		"title": "Staying Out of Sight",
+		"blurb": "A more advanced take on staying unnoticed by wildlife, built on years of practice moving through open ground without being spotted."
+	},
+	"dexterous": {
+		"title": "Dexterity is Key",
+		"blurb": "Notes on balance and movement that leave you walking a little faster and jumping a little higher without really trying."
+	},
+	"keeneye": {
+		"title": "An Eye for Detail",
+		"blurb": "Written by a prospector who noticed things other miners walked straight past, whether it was a vein of ore or a bit of old scrap half buried in the rock."
+	},
+	"speedster": {
+		"title": "An Idiot's Guide To Running",
+		"blurb": "A short, enthusiastic, and overly critical guide on how to sprint in a way that actually works."
+	},
+	"butcher": {
+		"title": "No Part Wasted",
+		"blurb": "A slow, thorough method of breaking down a carcass that leaves almost nothing behind. Takes longer than most people bother with, but the extra time shows in what you walk away with."
+	},
+	"gatherer": {
+		"title": "A Gatherer's Route",
+		"blurb": "A hand-drawn map of good foraging spots with notes scrawled in the margins about what grows where and when. Clearly this book has had multiple owners."
+	},
+	"herbalist": {
+		"title": "Field Notes on Wild Plants",
+		"blurb": "A careful record of where useful plants grow and how to move through the woods without spooking every animal in earshot. The mistletoe notes take up more space than anything else."
+	},
+	"frugal": {
+		"title": "How To Eat Less",
+		"blurb": "Advice on stretching meals further without losing energy. Practical, if a little joyless."
+	},
+	"foodsnitcher": {
+		"title": "The Foodsnitcher's Secret",
+		"blurb": "Notes from someone who apparently never paid for a meal in their life and somehow thrived on it. The methods are questionable but undeniably effective."
+	},
+	"heavy": {
+		"title": "Second Skin",
+		"blurb": "A soldier's notes on moving in full armor as though it weighs nothing at all. Mostly about posture and habit, built up over years of never taking the armor off."
+	},
+	"mountaineater": {
+		"title": "Eating the Mountain",
+		"blurb": "A miner's boastful nickname turned into an actual set of techniques. Aggressive and fast, and apparently effective, judging by how much ore this person hauled out in a single day."
+	},
+	"ranger": {
+		"title": "The Ranger's Bow",
+		"blurb": "A hunter's guide to drawing a bow properly and hitting what you aim at. It's quite gruff and emotionless but you can't argue with the results."
+	},
+	"unstoppable": {
+		"title": "Keep Moving Forward",
+		"blurb": "A soldier's creed more than a manual. The idea is simple: hit hard, take care of your armor, and never let the weight of it slow you down."
+	},
+	"greedy": {
+		"title": "Take EVERYTHING",
+		"blurb": "A scavenger's philosophy written down as loosely organized notes. The gist of it is simple: leave nothing behind, whether it's gears, scraps, or anything else worth carrying."
+	},
+	"digger": {
+		"title": "The Digger's Almanac",
+		"blurb": "Notes from someone who has dug through more peat and clay than most people walk over in a lifetime. Includes tips on how to waste less clay and peat."
+	},
+	"tough": {
+		"title": "Walk It Off",
+		"blurb": "Notes from someone who has been in more fights than they probably should have survived. Half of it is about how you should \"suck it up and walk it off\", while the other half is about hitting people really, really hard."
+	},
+	"farmer": {
+		"title": "A Farmer's Yield",
+		"blurb": "Straightforward notes on getting more out of a harvest through patience and proper timing rather than any special trick."
+	},
+	"strongshoulders": {
+		"title": "Drawing Strength",
+		"blurb": "Shoulder and back exercises aimed specifically at drawing heavier bows. Written by someone who must have used an extremely heavy draw weight."
+	},
+	"resilient": {
+		"title": "Building Resistance",
+		"blurb": "A short piece on conditioning your body to take punishment over time. Not exciting reading, but the results speak for themselves."
+	},
+	"healthy": {
+		"title": "The Basics of Staying Healthy",
+		"blurb": "Common sense advice on rest, food, and not pushing your body past its limits. Unremarkable to read and rather obvious, but a lot of people never bother following it."
+	},
+	"versatile": {
+		"title": "Combat Versatility",
+		"blurb": "Notes from someone who never could pick a preference. Covers switching between melee and ranged combat depending on the fight in front of you, rather than committing to either."
+	},
+	"lumberjack": {
+		"title": "A Lumberjack's Handbook",
+		"blurb": "Advice on getting more wood and usable sticks out of every tree felled, plus a note on sharpening your axe that translates well to almost any weapon."
+	},
+	"forester": {
+		"title": "A Forester's Field Guide",
+		"blurb": "Detailed notes on finding fruit trees and gathering seeds efficiently, including a rare method for getting seeds that most foragers walk straight past without noticing."
+	},
+	"burner": {
+		"title": "On The Production of Charcoal",
+		"blurb": "A charcoal burner's notes on getting a better yield from every charcoal pit they light. Smells faintly of smoke even after all this time."
+	},
+	"strongarms": {
+		"title": "How To Actually Build Muscle",
+		"blurb": "A basic strength routine aimed at swinging a weapon harder without losing control of it. Repetitive, but it does what it says."
+	},
+	"animalfriend": {
+		"title": "On Befriending an Animal",
+		"blurb": "An explanation of getting animals to stop noticing you as a threat. Mostly about moving slowly and not making sudden noise, but it clearly took someone a long time to learn."
+	},
+	"sturdy": {
+		"title": "The Wall",
+		"blurb": "A fictional account of a knight who refused to go down when defending a town from raiders. It may be fictional, but the writer clearly has experience; the knight's tactics are uncannily smart."
+	},
+	"flaxharvest": {
+		"title": "The Flax Whisperer",
+		"blurb": "A short, oddly specific guide to harvesting flax without wasting a single stalk. The author seems unusually passionate about a fairly mundane plant, but their knowledge and efficiency is incredible."
+	},
+	"timberborn": {
+		"title": "Raised Among the Trees",
+		"blurb": "A forester's life story disguised as a manual. Covers everything from finding good seeds to felling timber efficiently, and mentions in passing that years of axework tends to build a strong swing."
+	},
+	"naturebound": {
+		"title": "Living Quietly Outdoors",
+		"blurb": "Notes on moving softly through the wild so plants and animals alike are easier to find."
+	},
+	"flenser": {
+		"title": "Feeding A Hundred Men",
+		"blurb": "The opposite approach to butchering: fast, efficient cuts. The quicker you work, the sooner the meat is over the fire. You do learn a bit more about what meat can be used though."
+	},
+	"rangedmastery": {
+		"title": "Generations of the Bow",
+		"blurb": "The handwriting changes every few dozen pages, one master's notes layered under the next's corrections. The techniques within this book require extreme practice and discipline; you are certain learning this will make you incredibly rusty with a sword."
+	},
+	"meleemastery": {
+		"title": "Generations of the Blade",
+		"blurb": "The handwriting changes every few dozen pages, one master's notes layered under the next's corrections. The techniques within this book require extreme practice and discipline; you are certain learning this will make you incredibly rusty with a bow."
+	},
+	"skilledatmeleecombat": {
+		"title": "Melee Combat Fundamentals",
+		"blurb": "A basic training guide for close combat, covering all three attack types without favoring one over the others. Solid, unremarkable, effective."
+	},
+	"skilledatrangedcombat": {
+		"title": "Ranged Combat Fundamentals",
+		"blurb": "A straightforward training guide for hitting harder at range, regardless of weapon type."
+	},
+	"fleisher": {
+		"title": "The Complete Butcher's Method",
+		"blurb": "A thick manual covering everything from blade care to carrying a kill back to camp without ruining half of it."
+	},
+	"predatory": {
+		"title": "Carrying the Kill",
+		"blurb": "A short guide on packing and slinging a carcass so it does not slow you down on the walk home."
+	},
+	"preserver": {
+		"title": "Icecutting",
+		"blurb": "Notes on gathering lake ice efficiently before it melts. Practical for anyone trying to keep food fresh through the warmer months."
+	},
+	"daggerProficiency": {
+		"title": "Quick Blade Work",
+		"blurb": "A short guide to fighting with a dagger, mostly focused on speed. The author's point is simple: land more hits before the other person lands one."
+	},
+	"bornToQuarter": {
+		"title": "Born to Quarter",
+		"blurb": "A butcher-turned-fighter's account of bringing a cleaving swing from the kitchen to the battlefield. Effective on both, apparently."
+	},
+	"giveEmHell": {
+		"title": "Give 'em Hell",
+		"blurb": "A short, angry pamphlet about hitting things as hard as possible with blunt weapons. Not much technique here, just enthusiasm and follow-through."
+	},
+	"pricker": {
+		"title": "The Art of the Thrust",
+		"blurb": "Notes on landing precise, piercing strikes instead of wild swings. Economical and a little unsettling to read."
+	},
+	"hammerTime": {
+		"title": "Hammer Time",
+		"blurb": "A blacksmith's take on fighting with blunt weapons, treating an opponent much like a piece of metal that needs shaping. Blunt in more ways than one."
+	},
+	"oneSliceTwoHalves": {
+		"title": "One Slice, Two Halves",
+		"blurb": "A dedicated slashing technique that trades away any skill with piercing weapons. The author clearly only ever wanted to swing, never stab."
+	},
+	"bourgeois": {
+		"title": "A Gentleman's Approach to Combat",
+		"blurb": "An oddly formal guide to fighting with piercing weapons, written as though dueling were a matter of manners rather than survival. The technique works regardless of the tone."
+	},
+	"surgicalPrecision": {
+		"title": "Surgical Precision",
+		"blurb": "A precise, almost clinical guide to cutting and stabbing cleanly, with a clear disdain for blunt weapons as a crude alternative."
+	},
+	"needleWork": {
+		"title": "Needlework",
+		"blurb": "Notes from someone equally comfortable with a needle, a blade, or a bow, so long as the point goes in first. Blunt weapons get no love here."
+	},
+	"dwarf": {
+		"title": "Field Notes on Dwarves",
+		"blurb": "An adventurer's account of traveling with dwarven company. Notes their comfort deep underground, their trouble in water, and how their thick hide and sharp instincts serve them well once the light runs out."
+	},
+	"elf": {
+		"title": "Field Notes on Elves",
+		"blurb": "Observations on elven travelers, quick and quiet on their feet even moving backward, though the cold seems to bother them more than most. Their diet leans heavily on fruit, grain, and vegetables."
+	},
+	"goblin": {
+		"title": "Field Notes on Goblins",
+		"blurb": "A wary account of goblin company, quick on their feet and able to make a meal out of almost anything. Fragile in a straight fight, but their instinct for finding a weak spot makes up for it."
+	},
+	"human": {
+		"title": "Field Notes on Humans",
+		"blurb": "The shortest entry in the collection, mostly because there is little unusual to report. Competent swimmers, quick to recover from injury, and adaptable to nearly any situation."
+	},
+	"ork": {
+		"title": "Field Notes on Orks",
+		"blurb": "Notes on traveling with orks, who eat enormous amounts of meat and little else, fight harder once night falls, and seem largely unbothered by things that would unsettle anyone else."
+	}
+}

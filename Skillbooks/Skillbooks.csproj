@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
+    <RootNamespace>Skillbooks</RootNamespace>
+
+    <!-- Packaging metadata, used only when publishing this as a NuGet package for addon
+         mods (Stats, Archivist) to reference. Version is supplied at publish time by
+         publish-package.ps1, not hardcoded here; the git tag is the source of truth. -->
+    <PackageId>Skillbooks.Core</PackageId>
+    <Authors>soundbyter</Authors>
+    <Description>Public API surface for the Skillbooks Vintage Story mod -- trait registry, flavour resolver, book item base class. Consumed by Skillbooks addon mods (Stats, Archivist).</Description>
+    <RepositoryUrl>https://github.com/soundbyter/skillbooks-core</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSSurvivalMod">
+      <HintPath>$(VINTAGE_STORY)/Mods/VSSurvivalMod.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VSEssentials">
+      <HintPath>$(VINTAGE_STORY)/Mods/VSEssentials.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VSCreativeMod">
+      <HintPath>$(VINTAGE_STORY)/Mods/VSCreativeMod.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(VINTAGE_STORY)/Lib/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Pack=false: these copy into the mod's own build output as usual, but shouldn't
+         also end up bundled inside the NuGet package; addon mods referencing the package
+         need our compiled types, not our assets/lang/modinfo. -->
+    <Content Include="assets\**">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <Pack>false</Pack>
+    </Content>
+    <Content Include="modinfo.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <Pack>false</Pack>
+    </Content>
+    <Content Include="modicon.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <Pack>false</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
