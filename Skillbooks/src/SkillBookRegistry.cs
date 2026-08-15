@@ -86,6 +86,12 @@ namespace Skillbooks
                 ["skillbooks:traitCode"] = traitCode,
                 ["skillbooks:title"] = flavour.Title,
                 ["skillbooks:blurb"] = flavour.Blurb,
+                // Crafting traits don't normally carry stat Attributes, but a modded trait
+                // can carry both (see ItemSkillBook.RefreshTraitStats) -- stashed here too
+                // so the tooltip can show them on the rare trait where that's the case.
+                ["skillbooks:attributes"] = discovered.Trait.Attributes is { Count: > 0 }
+                    ? JObject.FromObject(discovered.Trait.Attributes)
+                    : null,
                 ["handbook"] = new JObject { ["exclude"] = true },
             });
 

@@ -1,5 +1,6 @@
 {
 	"skillbooks:msg-traitlearned": "You feel like you understand {0} now.",
+	"skillbooks:tooltip-grants": "Grants: {0}",
 	"skillbooks:msg-alreadyknown": "You already know everything this book has to teach.",
 	"skillbooks:msg-rerolled": "The gear hums, and the pages rewrite themselves before your eyes.",
 	"skillbooks:msg-illegible": "You feel something used to be here, but you can't make out the words.",
