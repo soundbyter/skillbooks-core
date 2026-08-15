@@ -1,43 +1,33 @@
-<p style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/soundbyter/skillbooks-core/main/docs/images/logo.png" alt="Skillbooks" width="280" />
-</p>
-
-<p>Skillbooks turns crafting traits into something you find, not just something you're born with. Every crafting trait in your world &mdash; vanilla and modded alike &mdash; gets its own lore-styled book, generated automatically when the server starts. Read one, and you permanently learn the trait it teaches.</p>
-
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/soundbyter/skillbooks-core/main/docs/images/logo.png" alt="Skillbooks" width="280" /></p>
+<h1>Skillbooks Core</h1>
+<p>Skillbooks turns crafting traits into something you find, not just something you're born with. Every crafting trait in your world both vanilla and modded alike gets its own lore-styled book, generated automatically when the server starts. Read one, and you permanently learn the trait it teaches.</p>
 <h2>How it works</h2>
-<p>At server start, Skillbooks scans every loaded recipe for a required trait and cross-references that against the traits your mods actually define. Whatever it finds gets a book: a title, an in-world description, and a spot in the loot and trading pools. Install a new class mod, restart the server, and its traits already have books waiting to be found &mdash; nothing to configure, nothing to wait on an update for.</p>
-
-<p style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/soundbyter/skillbooks-core/main/docs/images/tooltip-preview.png" alt="A Skillbook's in-game tooltip, showing the trait it grants and what it unlocks" />
-</p>
-
+<p>At server start, Skillbooks scans every loaded recipe for a required trait and cross-references that against the traits your mods actually define. Whatever it finds gets a book with a title, an in-world description, and a spot in the loot and trading pools. Install a new class mod, restart the server, and its traits already have books waiting to be found.</p>
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/soundbyter/skillbooks-core/main/docs/images/tooltip-preview.png" alt="A Skillbook's in-game tooltip" /></p>
 <h2>Features</h2>
 <ul>
-  <li><strong>Dynamic discovery.</strong> No per-trait setup. New traits from other mods pick up books automatically.</li>
-  <li><strong>Curated flavour text.</strong> Every vanilla and supported-mod trait has a hand-written title and description, not a generic placeholder.</li>
-  <li><strong>Multiple ways to find books.</strong> Cracked vessels and treasure hunter traders, each independently configurable.</li>
-  <li><strong>Salvage.</strong> Turn a book you don't want into leather.</li>
-  <li><strong>Reroll.</strong> Hold a temporal gear in your offhand while reading a book to trade it for a different random trait instead of learning it.</li>
-  <li><strong>Graceful degradation.</strong> If a mod providing a trait gets removed later, its book becomes a distinct "illegible" item instead of corrupting or vanishing &mdash; still salvageable or rerollable, just no longer readable for the trait.</li>
+<li><strong>Dynamic discovery.</strong> No per-trait setup. New traits from other mods pick up books automatically.</li>
+<li><strong>Curated flavour text.</strong> Every vanilla and supported-mod trait has a hand-written title and description, not a generic placeholder.</li>
+<li><strong>Multiple ways to find books.</strong> Cracked vessels and treasure hunter traders, each independently configurable.</li>
+<li><strong>Salvage.</strong> Turn a book you don't want into leather.</li>
+<li><strong>Reroll.</strong> Hold a temporal gear in your offhand while reading a book to trade it for a different random trait instead of learning it.</li>
+<li><strong>Graceful degradation.</strong> If a mod providing a trait gets removed later, its book becomes a distinct "illegible" item instead of corrupting or vanishing; still salvageable or rerollable, just no longer readable for the trait.</li>
 </ul>
-
 <h2>Traits with curated flavour</h2>
-<p>Every vanilla crafting trait, plus every crafting trait from these class mods, has hand-written flavour text rather than the procedural fallback:</p>
+<p>Every vanilla crafting trait, plus every crafting trait from these mods, has hand-written flavour text rather than the procedural fallback:</p>
 <ul>
-  <li>Vanilla &mdash; 5 traits</li>
-  <li>Aldi's Classes &mdash; 24 traits</li>
+<li><strong>Vanilla -</strong>&nbsp;5 traits</li>
+<li><strong>Aldi's Classes</strong> - 24 traits</li>
 </ul>
-<p>A trait from any other installed mod still gets a book automatically (see "How it works" above) &mdash; just with a plainer procedural description until flavour's written for it, either here or by the mod's own author (see "Making a class mod?" below).</p>
-
+<p>A trait from any other installed mod still gets a book automatically (see "How it works" above), just with a plainer procedural description until flavour's written for it, either here or by the mod's own author (see "Making a class mod?" below).</p>
 <h2>Configuration</h2>
 <p>A config file is generated on first run with control over:</p>
 <ul>
-  <li>Loot spawn chance and which block codes can drop a book</li>
-  <li>Trader spawn chance, which trader types offer books, and their price</li>
-  <li>An allowlist or blacklist to include or exclude specific traits</li>
-  <li>Whether salvage and reroll are enabled, and whether either is restricted to illegible books only</li>
+<li>Loot spawn chance and which block codes can drop a book</li>
+<li>Trader spawn chance, which trader types offer books, and their price</li>
+<li>An allowlist or blacklist to include or exclude specific traits</li>
+<li>Whether salvage and reroll are enabled, and whether either is restricted to illegible books only</li>
 </ul>
-
 <h2>Making a class mod?</h2>
 <p>Skillbooks discovers your traits automatically, but if you'd rather write your own flavour text for your own trait's book instead of using the procedural fallback, just ship a file at <code>assets/&lt;yourmoddomain&gt;/config/skillbooks/&lt;traitcode&gt;.json</code> in your own mod:</p>
 <pre><code>{
@@ -45,9 +35,7 @@
   "blurb": "The in-world description shown when the book is read or inspected."
 }</code></pre>
 <p>That takes priority over Skillbooks' own curated list, no coordination with this repo required.</p>
-
 <h2>Part of a family</h2>
 <p>Skillbooks has a standalone addon, <a href="https://mods.vintagestory.at/show/mod/64135" target="_blank" rel="noopener">Skillbooks: Stats</a>, which does the same thing for stat-modifying traits (Fleetfooted, Hardy, and so on). It works entirely on its own, but if both mods are installed it automatically shares this mod's trait registry and flavour text rather than duplicating anything.</p>
-
 <h2>Open source</h2>
-<p>Skillbooks is developed in the open under the GPL-3.0 license. Source, issue tracker, and releases are all on <a href="https://github.com/soundbyter/skillbooks-core" target="_blank" rel="noopener">GitHub</a>. Bug reports, feature requests, and pull requests are welcome &mdash; see <a href="https://github.com/soundbyter/skillbooks-core/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a> to get started.</p>
+<p>Skillbooks is developed in the open under the GPL-3.0 license. Source, issue tracker, and releases are all on <a href="https://github.com/soundbyter/skillbooks-core" target="_blank" rel="noopener">GitHub</a>. Bug reports, feature requests, and pull requests are welcome, see <a href="https://github.com/soundbyter/skillbooks-core/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a> to get started.</p>
