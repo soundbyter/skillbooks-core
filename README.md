@@ -83,3 +83,8 @@ links against this repo's public API surface.
 ## License
 
 [GPL-3.0](LICENSE).
+
+## AI Disclaimer
+
+AI assistance has been used in the creation of flavour text for some of the books, documentation within this repository, comment writing within the codebase and repetitive tasks during development. The generated output was personally checked, modified and thoroughly tested by me for quality and accuracy and is subject to change at any time.
+AI usage in contributing, documentation and pull requests is welcome so long as it is used safely and you have properly tested its output.
