@@ -11,5 +11,7 @@
 	"skillbooks:fallback-blurb-nodesc": "A hand-copied guide, evidently passed between tradespeople for generations.",
 	"game:tabname-skillbooks": "Skill Books",
 	"skillbooks:handbook-title": "Skillbooks",
+	"skillbooks:learnedtraits-title": "Learned Traits",
+	"skillbooks:learnedtraits-empty": "You haven't learned any traits yet.",
 	"skillbooks:handbook-text": "Experience and skills rarely stay hidden for long. Whether it is from a genuine desire to spread your knowledge, notes on your profession you never intended to share, or to feed your ego by showing off your skills: your expertise will be found and adapted by those who come after.\n\nJust like there will be people who arrive after you, there were many people who came before. For one reason or another, these survivors detailed their meticulous experiences in their fields in \"skillbooks\" for you to read.\n\nWhether in the hands of merchants or in some crypt with its author, these books can be found throughout the world as the best option to learn new skills.\n\nA book that no longer holds any interest can be salvaged for its leather binding with a simple knife. Alternatively, if a book's particular knowledge isn't what you were hoping for, hold it alongside a temporal gear in your other hand and read as normal -- the gear unravels and reweaves it into an entirely different skillbook, though what knowledge you'll uncover next is left to chance."
 }

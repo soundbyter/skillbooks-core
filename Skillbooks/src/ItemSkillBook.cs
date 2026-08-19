@@ -165,12 +165,30 @@ namespace Skillbooks
 
             byEntity.WatchedAttributes.SetStringArray("extraTraits", extraTraits.Append(traitCode).ToArray());
             byEntity.WatchedAttributes.MarkPathDirty("extraTraits");
+            RecordLearnedTrait(byEntity, traitCode);
             RefreshTraitStats(resolvedApi, byEntity);
 
             slot.TakeOut(1);
             slot.MarkDirty();
 
             (player as IServerPlayer)?.SendMessage(GlobalConstants.CurrentChatGroup, Lang.Get("skillbooks:msg-traitlearned", Lang.Get("trait-" + traitCode)), EnumChatType.Notification);
+        }
+
+        /// <summary>
+        /// extraTraits is a generic vanilla extension point (CharacterSystem only ever reads
+        /// it) that any mod can add codes to -- race selection and other mods use it too, so
+        /// it can't double as "traits granted specifically by a skillbook" for display
+        /// purposes. Tracked separately here, under an unprefixed key shared with Skillbooks:
+        /// Stats the same way extraTraits itself is shared, so a "Learned Traits" tab can
+        /// show only what was actually read from a book.
+        /// </summary>
+        private static void RecordLearnedTrait(EntityAgent byEntity, string traitCode)
+        {
+            string[] learned = byEntity.WatchedAttributes.GetStringArray("skillbooksLearnedTraits", System.Array.Empty<string>());
+            if (learned.Contains(traitCode)) { return; }
+
+            byEntity.WatchedAttributes.SetStringArray("skillbooksLearnedTraits", learned.Append(traitCode).ToArray());
+            byEntity.WatchedAttributes.MarkPathDirty("skillbooksLearnedTraits");
         }
 
         /// <summary>
